@@ -1,3 +1,3 @@
-# initialize
+# utils
 
-set of bash scripts with an initializer to set up a new macbook
+set of bash scripts, css, js helpers for various tasks
