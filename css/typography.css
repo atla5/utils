@@ -1,0 +1,37 @@
+/* text */
+.txtc { text-align: center; }
+.txtr { text-align: right; }
+.txtl { text-align: left; }
+.big-text, .large-text { font-size: large; }
+.larger-text { font-size: larger; }
+.xl-text { font-size: x-large; }
+
+/* list styles */
+ul.no-bullet { padding-left: 0em; }
+.no-bullet > li, .no-bullet > * > li { list-style:none !important; padding-left: 0em; }
+.inline-list > li { display: inline; padding-right: 5px; }
+
+/* '.white-link' */
+a.white-link, a.white-link:active, a.white-link:visited {
+  color: var(--color-primary-text, whitesmoke);
+  text-decoration: underline;
+  font-weight: normal;
+}
+a.white-link:hover {
+  color: var(--color-primary-text-light, white);
+  text-decoration: underline;
+  font-weight: normal;
+}
+
+/* accessibility - used to optimize the page for screenreaders (code copied from [Orange-OpenSource](/web_EN/exemples/masquage/index.html) under CC BY SA 3.0)  */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap; /* added line */
+  border: 0;
+}
