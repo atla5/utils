@@ -53,10 +53,6 @@
 .mtm { margin-top: 10px; }
 .ptl { margin-top: 15px; }
 
-.mrs { margin-right: 5px; }
-.mtm { margin-top: 10px; }
-.mbm { margin-bottom: 10px; }
-
 /* display */
 .flex { display: flex; }
 .flexw { display: flex; flex-wrap: wrap; }
