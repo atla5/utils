@@ -13,6 +13,15 @@ defaults write com.apple.Dock autohide 1
 defaults write com.apple.Dock mineffect scale
 defaults write com.apple.Dock largesize 70
 
+# git projects
+mkdir ~/projects
+mkdir ~/projects/personal
+git config --global user.name "atla5"
+git config --global user.email "aidan.keefe.s@gmail.com"
+git clone https://github.com/atla5/personal-site.git ~/projects/personal/personal-site
+git clone https://github.com/atla5/resume.git ~/projects/personal/resume
+git clone https://github.com/atla5/utils.git ~/projects/personal/utils
+
 # copy some basic aliases into the bash_profile
 cat >> ~/.bash_profile <<EOL
 # general
