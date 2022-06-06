@@ -32,6 +32,7 @@ alias ls!="ls -alrt"
 alias glog="git log --oneline"
 alias glog-me="git log --oneline --author='Aidan Sawyer'"
 EOL
+source ~/.bash_profile
 
 # install dependencies/software
 xcode -select -- install
